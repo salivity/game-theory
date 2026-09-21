@@ -1,0 +1,602 @@
+[
+  [
+    100,
+    "Future of Game Theory in Global Networks",
+    "This article explores how game theory is evolving to analyze and secure highly interconnected global networks. As systems like global supply chains, financial markets, social networks, and cybersecurity infrastructure grow more complex, traditional strat",
+    false
+  ],
+  [
+    99,
+    "Epistemic Game Theory and Player Beliefs Explained",
+    "Epistemic game theory is a branch of game theory that analyzes how players reason about each other's beliefs, knowledge, and actions to make decisions. Unlike classical game theory, which often assumes players simply choose optimal strategies based on ob",
+    false
+  ],
+  [
+    98,
+    "What is a Bayesian Game in Game Theory?",
+    "This article provides a clear overview of Bayesian games in game theory, explaining how strategic decisions are made when players have incomplete information about their opponents. It covers the core components of these games, the concept of Harsanyi’s",
+    false
+  ],
+  [
+    97,
+    "How Incomplete Information Affects Game Theory Models",
+    "In game theory, assuming that all players have perfect knowledge of their opponents' payoffs, preferences, and motives is rarely realistic. This article explores how introducing incomplete information fundamentally alters the design of game theory models",
+    false
+  ],
+  [
+    96,
+    "Significance of Folk Theorem in Repeated Games",
+    "This article explores the significance of the folk theorem in repeated game theory. It explains how the theorem mathematically demonstrates how cooperation can emerge in long-term relationships, examines its core mechanisms of reward and punishment, and",
+    false
+  ],
+  [
+    95,
+    "Repeated Game Theory vs One-Shot Game Theory",
+    "This article explores the fundamental differences between one-shot and repeated game theory, detailing how the frequency of interaction transforms player strategies, incentives, and outcomes. While one-shot games often lead to conflict and mutual defecti",
+    false
+  ],
+  [
+    94,
+    "Criticisms of Classical Game Theory Assumptions",
+    "Classical game theory provides a mathematical framework for analyzing strategic interactions, but its foundational assumptions have faced significant criticism from economists, psychologists, and social scientists. This article explores the primary criti",
+    false
+  ],
+  [
+    93,
+    "How RAND Used Game Theory in the Cold War",
+    "During the Cold War, the RAND Corporation became the premier think tank for translating the mathematical principles of game theory into practical military strategy. By analyzing the geopolitical standoff between the United States and the Soviet Union as",
+    false
+  ],
+  [
+    92,
+    "John Nash's Most Significant Game Theory Contribution",
+    "John Nash’s most significant contribution to game theory is the formulation of the Nash Equilibrium, a concept that fundamentally changed how economists, scientists, and politicians analyze strategic decision-making. This article explains what the Nash",
+    false
+  ],
+  [
+    91,
+    "How John von Neumann Founded Game Theory",
+    "John von Neumann is widely recognized as the father of modern game theory, a mathematical framework designed to analyze strategic decision-making. This article explores his foundational contributions, beginning with his groundbreaking 1928 proof of the M",
+    false
+  ],
+  [
+    90,
+    "Game Theory in P2P Network Incentives",
+    "This article explores how game theory serves as the foundational framework for designing incentive structures in peer-to-peer (P2P) networks. It examines how mathematical models of conflict and cooperation prevent selfish behavior, solve the free-rider p",
+    false
+  ],
+  [
+    89,
+    "Game Theory in Algorithmic Trading Bot Design",
+    "This article explores how game theory principles shape the development and operation of algorithmic trading bots. In modern financial markets, automated trading systems do not operate in a vacuum; they constantly interact, compete, and react to one anoth",
+    false
+  ],
+  [
+    88,
+    "Game Theory and Generative Adversarial Networks",
+    "This article explores the fundamental connection between game theory and Generative Adversarial Networks (GANs) in machine learning. It explains how GANs operate as a two-player, zero-sum game where a generator and a discriminator compete against each ot",
+    false
+  ],
+  [
+    87,
+    "Optimizing Cloud Resources with Game Theory",
+    "Cloud computing environments require efficient distribution of resources like CPU, memory, and storage to satisfy diverse user demands while maximizing provider profits. This article explores how game theory models—such as cooperative, non-cooperative,",
+    false
+  ],
+  [
+    86,
+    "Game Theory in Cybersecurity: Defending Against Hackers",
+    "Game theory provides a mathematical framework for modeling the strategic interactions between cyber defenders and attackers, revealing how both sides make decisions under conditions of conflict and uncertainty. By analyzing these interactions as competit",
+    false
+  ],
+  [
+    85,
+    "Game Theory in Network Routing Protocols",
+    "Network routing protocols are essential for directing data across the internet efficiently, but managing independent nodes that may act selfishly is a major challenge. Game theory provides a mathematical framework to model, analyze, and optimize these ro",
+    false
+  ],
+  [
+    84,
+    "Game Theory of Blockchain Consensus Algorithms",
+    "Blockchain technology relies on decentralized networks where participants do not naturally trust each other. To achieve agreement without a central authority, consensus algorithms use game theory to align individual self-interest with the security and ho",
+    false
+  ],
+  [
+    83,
+    "Game Theory in Multi-Agent AI Systems",
+    "Multi-agent artificial intelligence (AI) systems rely on the coordinated interaction of multiple autonomous entities to solve complex, decentralized problems. To design these systems effectively, developers use game theory, a mathematical framework that",
+    false
+  ],
+  [
+    82,
+    "Game Theory in AI Reinforcement Learning",
+    "This article explores the fundamental connection between game theory and artificial intelligence (AI) reinforcement learning. It examines how game-theoretic principles enable algorithms to make strategic decisions, manage multi-agent environments, and ac",
+    false
+  ],
+  [
+    81,
+    "Algorithmic Game Theory in Computer Science",
+    "Algorithmic game theory (AGT) is a field at the intersection of computer science and economics that designs and analyzes algorithms in environments populated by self-interested agents. This article explores how AGT is applied in computer science, detaili",
+    false
+  ],
+  [
+    80,
+    "Game Theory of Addiction and Self-Control",
+    "This article explores how game theory, the mathematical study of strategic decision-making, can model the internal conflict of addiction and self-control. By viewing a single individual as a series of competing \"selves\" over time, game theory provides un",
+    false
+  ],
+  [
+    79,
+    "Cultural Differences in Behavioral Game Theory",
+    "Behavioral game theory models how real people make strategic decisions, but these decisions are rarely made in a cultural vacuum. This article explores how cultural differences—specifically varying norms of fairness, cooperation, trust, and punishment",
+    false
+  ],
+  [
+    78,
+    "How Game Theory Explains Social Norm Evolution",
+    "Game theory provides a powerful mathematical framework for understanding how social norms emerge, stabilize, and evolve within human societies. By analyzing individuals as strategic decision-makers in interactive scenarios, game theory reveals how unwrit",
+    false
+  ],
+  [
+    77,
+    "How Game Theory Explains Altruistic Punishment",
+    "Altruistic punishment occurs when individuals incur a personal cost to punish those who violate social norms, even when there is no direct material benefit for the punisher. While classical economic theory struggles to explain this behavior, game theory",
+    false
+  ],
+  [
+    76,
+    "Impact of Fairness Norms on Game Theory Models",
+    "Traditional game theory models assume that players are purely rational, self-interested actors focused solely on maximizing their personal payoffs. However, real-world human behavior frequently deviates from this \"homo economicus\" model due to deeply ing",
+    false
+  ],
+  [
+    75,
+    "How Emotions Affect Behavioral Game Theory",
+    "Behavioral game theory experiments reveal that human decisions consistently deviate from the predictions of traditional, purely rational economic models. This article explores how emotions such as anger, guilt, envy, and empathy act as powerful drivers i",
+    false
+  ],
+  [
+    74,
+    "How Game Theory Explains Trust and Reciprocity",
+    "Game theory, the mathematical study of strategic decision-making, provides profound insights into why humans trust one another and cooperate. By analyzing interactions through mathematical models like the Prisoner's Dilemma, game theory reveals that trus",
+    false
+  ],
+  [
+    73,
+    "Cognitive Biases in Game Theory Decision-Making",
+    "Game theory traditionally assumes that players are entirely rational actors who make decisions to maximize their utility. However, real-world human behavior is heavily influenced by cognitive biases—systematic deviations from rational judgment. This ar",
+    false
+  ],
+  [
+    72,
+    "Bounded Rationality in Real-World Game Theory",
+    "In classical economics, game theory assumes that players are entirely rational actors with unlimited cognitive capacity, perfect foresight, and access to complete information. However, real-world decision-making is heavily constrained by cognitive limits",
+    false
+  ],
+  [
+    71,
+    "Behavioral Game Theory and Human Psychology",
+    "Behavioral game theory bridges the gap between mathematical game theory and real-world human behavior by integrating psychological insights into economic models. While classical game theory assumes players are perfectly rational and entirely self-interes",
+    false
+  ],
+  [
+    70,
+    "Game Theory and Economic Sanctions Effectiveness",
+    "This article analyzes the effectiveness of economic sanctions through the lens of game theory, examining the strategic decision-making process between sender and target states. By exploring key concepts such as the selection effect, signaling, commitment",
+    false
+  ],
+  [
+    69,
+    "Game Theory in Litigation and Settlement",
+    "Legal disputes are strategic interactions where the optimal decision for one party depends entirely on the actions and expectations of the opponent. This article explores how legal analysts and attorneys use game theory to model litigation and settlement",
+    false
+  ],
+  [
+    68,
+    "Game Theory in Legal Contract Design",
+    "Legal contracts are more than just static legal documents; they are dynamic frameworks that govern human behavior and strategic interactions. By applying game theory—the mathematical study of strategic decision-making—lawyers and business professiona",
+    false
+  ],
+  [
+    67,
+    "How Game Theory Explains Alliances and Coalitions",
+    "Game theory provides a powerful mathematical framework for understanding why political, military, and economic alliances form, how they maintain stability, and why they eventually collapse. By analyzing strategic interactions where the outcome for each p",
+    false
+  ],
+  [
+    66,
+    "Role of Game Theory in Legislative Bargaining",
+    "This article explores how game theory serves as a vital analytical tool for understanding legislative bargaining. By modeling politicians as strategic actors who make decisions based on the anticipated actions of others, game theory helps explain how coa",
+    false
+  ],
+  [
+    65,
+    "Game Theory in Climate Treaty Negotiations",
+    "Negotiating international climate treaties is notoriously difficult due to conflicting national interests and the temptation for countries to free-ride on others' emissions reductions. This article explores how game theory—the study of strategic decisi",
+    false
+  ],
+  [
+    64,
+    "Game Theory and the Median Voter Theorem",
+    "This article explores how game theory provides the mathematical foundation for the Median Voter Theorem, illustrating how political candidates in a majority-rule system naturally gravitate toward the political center to maximize their chances of winning.",
+    false
+  ],
+  [
+    63,
+    "Game Theory in Voting Systems and Elections",
+    "This article explores how game theory is applied to political elections and voting systems. By analyzing strategic voting, candidate positioning, and coalition formation, we examine how mathematical models predict political behavior, explain voter choice",
+    false
+  ],
+  [
+    62,
+    "Game Theory and Arms Race Dynamics",
+    "This article explores how game theory provides a mathematical framework to understand the strategic decisions nations make during an arms race. By examining models like the Prisoner's Dilemma, the Security Dilemma, and concepts of deterrence, we reveal w",
+    false
+  ],
+  [
+    61,
+    "How Game Theory Models Nuclear Deterrence",
+    "This article explores how political scientists and mathematicians use game theory to analyze and model international nuclear deterrence. By examining strategic decision-making through frameworks like the Nash Equilibrium, the Game of Chicken, and Mutuall",
+    false
+  ],
+  [
+    60,
+    "Game Theory in Plant Resource Allocation",
+    "Game theory, a mathematical framework used to analyze strategic decision-making, offers profound insights into how plants allocate limited resources like carbon, nitrogen, and water. By treating individual plants or plant parts as \"players\" in an evoluti",
+    false
+  ],
+  [
+    59,
+    "How Game Theory Explains Reciprocal Altruism",
+    "This article explores how game theory provides a mathematical framework to understand reciprocal altruism in nature. By analyzing evolutionary strategies like the Iterated Prisoner's Dilemma, we can decode why unrelated animals perform seemingly selfless",
+    false
+  ],
+  [
+    58,
+    "Kin Selection in Evolutionary Game Theory",
+    "This article explores the fundamental role of kin selection within evolutionary game theory, detailing how genetic relatedness reshapes classical strategic interactions. By altering the payoff structures of evolutionary games, kin selection explains how",
+    false
+  ],
+  [
+    57,
+    "How Game Theory Explains Animal Mating Strategies",
+    "Biologists use game theory—a mathematical framework originally designed to analyze economic decisions—to understand how animals compete for mates and maximize their reproductive success. This article explores how evolutionary game theory models, such",
+    false
+  ],
+  [
+    56,
+    "Game Theory in Host-Parasite Coevolution",
+    "Host-parasite coevolution is a continuous biological arms race where the survival of one species directly impacts the survival of the other. Game theory provides a powerful mathematical framework to analyze these interactions by treating hosts and parasi",
+    false
+  ],
+  [
+    55,
+    "Tragedy of the Commons in Evolutionary Game Theory",
+    "This article explores how evolutionary game theory (EGT) models the tragedy of the commons, a scenario where individual self-interest depletes a shared resource. By replacing the assumption of perfect human rationality with evolutionary dynamics, EGT exp",
+    false
+  ],
+  [
+    54,
+    "How Game Theory Explains Animal Conflict",
+    "Game theory offers a powerful mathematical framework for understanding why animals behave the way they do during conflicts over resources like food, mates, and territory. By analyzing the costs and benefits of different behavioral strategies, this scient",
+    false
+  ],
+  [
+    53,
+    "Game Theory and the Evolution of Altruism",
+    "In evolutionary biology, altruism—acting to benefit another at a cost to oneself—presents a classic paradox: if natural selection favors the fittest individuals, selfless behaviors should be driven to extinction. Game theory resolves this puzzle by u",
+    false
+  ],
+  [
+    52,
+    "What is an Evolutionarily Stable Strategy?",
+    "An Evolutionarily Stable Strategy (ESS) is a fundamental concept in biological game theory that explains how specific behaviors and traits persist in a population over time. This article provides a clear, direct overview of what an ESS is, how it differs",
+    false
+  ],
+  [
+    51,
+    "How John Maynard Smith Applied Game Theory to Evolution",
+    "John Maynard Smith revolutionized evolutionary biology by introducing game theory to explain how animal behaviors and strategies evolve over time. By adapting mathematical models originally developed for human economics, he showed that the success of an",
+    false
+  ],
+  [
+    50,
+    "Game Theory in Advertising Wars Explained",
+    "This article explores the strategic game theory mechanics that drive advertising wars between competing brands. By examining classic models like the Prisoner's Dilemma, we analyze why companies spend billions on marketing even when mutual restraint would",
+    false
+  ],
+  [
+    49,
+    "How Businesses Use Game Theory for Market Entry",
+    "Entering a new market is a high-stakes endeavor where a company's success depends heavily on how its competitors react. To navigate these complex dynamics, modern businesses rely on game theory—a mathematical framework designed to analyze strategic int",
+    false
+  ],
+  [
+    48,
+    "Game Theory in Mergers and Acquisitions",
+    "Corporate mergers and acquisitions (M&A) are complex, high-stakes negotiations where the success of one firm depends entirely on the strategic decisions of others. Game theory provides a powerful mathematical framework to analyze these interactions, help",
+    false
+  ],
+  [
+    47,
+    "Vickrey Auction Explained by Game Theory",
+    "This article explores the Vickrey auction through the lens of game theory, explaining how its unique second-price sealed-bid structure incentivizes bidders to submit their true valuations. We will analyze the concept of dominant strategies, the payoff me",
+    false
+  ],
+  [
+    46,
+    "The Role of Game Theory in Auction Design",
+    "Game theory is the foundational mathematical framework used to design efficient, fair, and profitable auctions. By analyzing how rational bidders interact under different sets of rules, auction designers can predict behavior, prevent strategic manipulati",
+    false
+  ],
+  [
+    45,
+    "How Game Theory Explains Price-Fixing Cartels",
+    "This article examines how game theory provides a powerful framework for understanding the behavior of price-fixing cartels. It explains how competing firms use strategic decision-making to collude on high prices, why these illegal agreements are inherent",
+    false
+  ],
+  [
+    44,
+    "Game Theory and the Stackelberg Model Explained",
+    "This article explores how game theory illuminates the Stackelberg model, a foundational framework for understanding sequential competition in imperfect markets. By examining the dynamic between market leaders and followers, we analyze how game theory exp",
+    false
+  ],
+  [
+    43,
+    "Bertrand Competition in Game Theory Explained",
+    "This article provides an analysis of the Bertrand competition model using game theory. It examines how firms competing on price reach a strategic equilibrium, outlines the core assumptions of the model, explains the resulting \"Bertrand paradox,\" and disc",
+    false
+  ],
+  [
+    42,
+    "Game Theory Insights for Cournot Duopoly",
+    "This article explores how game theory analyzes the Cournot duopoly, a classic economic model where two competing firms simultaneously choose output levels. By applying game-theoretic concepts like the Nash equilibrium, we examine how mutual interdependen",
+    false
+  ],
+  [
+    41,
+    "How Game Theory Models Oligopoly Competition",
+    "This article explores how economists use game theory to model oligopoly competition, where a small number of dominant firms control a market. It examines how strategic interdependence forces companies to anticipate their competitors' moves. Through key c",
+    false
+  ],
+  [
+    40,
+    "Differential Equations in Evolutionary Game Theory",
+    "This article explores how differential equations serve as the mathematical foundation of evolutionary game theory (EGT). It explains how these equations model the shifting frequencies of strategies within a population over time, transitioning game theory",
+    false
+  ],
+  [
+    39,
+    "Combinatorial Game Theory vs Classical Game Theory",
+    "This article explores the fundamental distinctions between combinatorial game theory and classical game theory. While both fields study strategic decision-making, they differ significantly in their mathematical foundations, the types of games they analyz",
+    false
+  ],
+  [
+    38,
+    "Mathematical Axioms of Expected Utility Theory",
+    "Expected utility theory is a cornerstone of modern game theory and decision theory, providing a framework for analyzing choices under uncertainty. This article explores the core mathematical axioms—completeness, transitivity, continuity, and independen",
+    false
+  ],
+  [
+    37,
+    "Understanding Mechanism Design as Reverse Game Theory",
+    "Mechanism design is a specialized field of economics and game theory that focuses on building rules, incentives, and protocols to achieve a specific, desired outcome when players act in their own self-interest. While traditional game theory analyzes exis",
+    false
+  ],
+  [
+    36,
+    "What is the Core in Cooperative Game Theory?",
+    "The core is a foundational concept in cooperative game theory that represents the set of stable allocations of payoffs among players. This article explores the significance of the core, explaining how it defines stability in collaborative environments, w",
+    false
+  ],
+  [
+    35,
+    "Defining Utility Functions in Game Theory",
+    "This article provides an overview of how utility functions are defined and applied within game theory. It explains how individual preferences are converted into mathematical values, distinguishes between ordinal and cardinal utility, and demonstrates how",
+    false
+  ],
+  [
+    34,
+    "Role of Probability Distributions in Game Theory",
+    "In game theory, probability distributions are essential tools used to model uncertainty, strategic randomization, and incomplete information. This article explores how these mathematical functions define mixed strategy equilibria, govern games of incompl",
+    false
+  ],
+  [
+    33,
+    "How Game Theory Models Continuous Strategies",
+    "While basic game theory models decisions as discrete choices—such as cooperating or defecting—real-world economic and social decisions usually involve a continuous spectrum of options, such as setting a price, choosing a quantity to produce, or alloc",
+    false
+  ],
+  [
+    32,
+    "What is Normal Form Representation in Game Theory",
+    "This article provides a comprehensive overview of the normal form representation in game theory, detailing how it mathematically defines strategic interactions. You will learn about the three essential components that comprise a normal form game—player",
+    false
+  ],
+  [
+    31,
+    "What is the Extensive Form in Game Theory?",
+    "In game theory, the extensive form is a mathematical and visual framework used to represent games that unfold sequentially over time. Unlike the normal (or strategic) form, which uses a matrix to depict simultaneous decisions, the extensive form models a",
+    false
+  ],
+  [
+    30,
+    "What is the Shapley Value in Cooperative Game Theory?",
+    "This article provides a comprehensive overview of the Shapley value, a fundamental concept in cooperative game theory. It explains how the Shapley value fairly distributes joint gains or costs among players in a coalition, details the core axioms that de",
+    false
+  ],
+  [
+    29,
+    "Trembling Hand Perfect Equilibrium in Game Theory",
+    "This article explores the concept of trembling hand perfect equilibrium in game theory, a refinement of the Nash equilibrium that accounts for the possibility of players making unintended mistakes. We will examine how this concept is defined, why it is c",
+    false
+  ],
+  [
+    28,
+    "What is a Schelling Point in Game Theory",
+    "This article explores the concept of a focal point—commonly known as a Schelling point—in game theory. It explains how individuals can coordinate their actions and reach a mutual agreement without communication, examines the origins of the concept in",
+    false
+  ],
+  [
+    27,
+    "Solving Game Theory Problems with Backward Induction",
+    "Backward induction is a powerful mathematical method used in game theory to solve sequential games by working backward from the end of a decision tree to the beginning. This article explains the core concept of backward induction, outlines a step-by-step",
+    false
+  ],
+  [
+    26,
+    "Weakly Dominated Strategy in Game Theory Explained",
+    "In game theory, strategic decision-making relies on understanding how different choices compare to one another. This article defines the concept of a weakly dominated strategy, explains how it differs from a strictly dominated strategy, provides a clear",
+    false
+  ],
+  [
+    25,
+    "What is a Strictly Dominated Strategy in Game Theory?",
+    "This article provides a clear explanation of what a strictly dominated strategy is in game theory, how it influences decision-making, and why it is a fundamental concept for analyzing strategic interactions. By understanding this concept, you will learn",
+    false
+  ],
+  [
+    24,
+    "Role of Pareto Efficiency in Game Theory",
+    "This article explores the critical role of Pareto efficiency in game theory outcomes. It defines the concept of Pareto efficiency, examines its relationship and frequent tension with Nash equilibria, and explains how it serves as a benchmark for evaluati",
+    false
+  ],
+  [
+    23,
+    "How Game Theory Uses the Minimax Theorem",
+    "This article explores how game theory utilizes the minimax theorem to guide decision-making in competitive environments. You will learn about the origins of the theorem, its application in two-player zero-sum games, how it helps players minimize potentia",
+    false
+  ],
+  [
+    22,
+    "What is Subgame Perfect Equilibrium?",
+    "In game theory, a subgame perfect equilibrium (SPE) is a refinement of the Nash equilibrium concept used to predict outcomes in sequential games where players take turns making decisions. This article explains the definition of a subgame perfect equilibr",
+    false
+  ],
+  [
+    21,
+    "How to Calculate Mixed Strategy Nash Equilibrium",
+    "This article provides a straightforward, step-by-step guide on how to calculate a mixed strategy Nash Equilibrium in game theory. You will learn the fundamental theory behind mixed strategies, the core principle of indifference, and a concrete mathematic",
+    false
+  ],
+  [
+    20,
+    "Volunteer's Dilemma Game Theory Principles",
+    "This article explores the core game theory principles that define the Volunteer’s Dilemma, a classic social scenario where a single individual must incur a small cost to produce a benefit for the entire group. By examining concepts such as Nash equilib",
+    false
+  ],
+  [
+    19,
+    "Matching Pennies Game Theory Explained",
+    "The Matching Pennies scenario is a foundational model used in economics and mathematics to introduce students to the core principles of game theory. By analyzing this simple, two-player game, educators can easily demonstrate complex concepts such as zero",
+    false
+  ],
+  [
+    18,
+    "Dictator Game Rationality in Game Theory",
+    "The Dictator Game is a foundational experiment in behavioral economics that directly challenges the traditional game theory assumption of absolute human selfishness. This article explores the mechanics of the Dictator Game, contrasts its empirical findin",
+    false
+  ],
+  [
+    17,
+    "How the Ultimatum Game Challenges Game Theory",
+    "This article explores how the Ultimatum Game, a landmark experiment in behavioral economics, challenges the foundational assumptions of traditional game theory. While classical economic models predict that humans always act as purely rational, self-inter",
+    false
+  ],
+  [
+    16,
+    "What is the Centipede Game in Game Theory?",
+    "The Centipede Game is a classic extensive-form game in behavioral game theory that highlights the paradox between individual self-interest and collective cooperation. While standard game theory mathematically predicts that rational players will end the g",
+    false
+  ],
+  [
+    15,
+    "How Game Theory Solves the Stag Hunt Dilemma",
+    "The Stag Hunt is a classic game theory scenario that illustrates the conflict between mutual cooperation and individual safety. This article explores how game theory analyzes and solves this dilemma, examining how rational actors choose between a high-ri",
+    false
+  ],
+  [
+    14,
+    "Battle of the Sexes in Game Theory Explained",
+    "The Battle of the Sexes is a foundational scenario in game theory that illustrates the challenges of coordination when players have conflicting preferences but still benefit more from cooperating than acting alone. This article explains the mechanics of",
+    false
+  ],
+  [
+    13,
+    "Game of Chicken Game Theory Explained",
+    "The Game of Chicken is a classic model in game theory used to analyze conflict, brinkmanship, and strategic decision-making between two competing players. This article explains the fundamental rules of the game, examines its payoff matrix, identifies the",
+    false
+  ],
+  [
+    12,
+    "Game Theory Implications of the Hawk-Dove Game",
+    "This article explores the core game theory implications of the Hawk-Dove game, a classic mathematical model used to analyze conflict, resource competition, and strategic decision-making. We will examine how this model explains aggressive versus cooperati",
+    false
+  ],
+  [
+    11,
+    "How Game Theory Explains the Prisoner's Dilemma",
+    "The Prisoner’s Dilemma is a foundational concept in game theory that demonstrates why two rational individuals might not cooperate, even if it is in their best interest to do so. This article explores how game theory models this conflict, analyzes the",
+    false
+  ],
+  [
+    10,
+    "What is a Zero-Sum Game in Game Theory?",
+    "This article provides a clear overview of zero-sum scenarios within the mathematical framework of game theory. It explains the core definition of a zero-sum game, outlines its fundamental characteristics, and provides real-world examples to illustrate ho",
+    false
+  ],
+  [
+    9,
+    "How Imperfect Information Affects Game Theory",
+    "This article explores how imperfect information introduces complexity into game theory models, transforming straightforward strategic calculations into dynamic puzzles of uncertainty. While basic game theory often assumes players have complete knowledge",
+    false
+  ],
+  [
+    8,
+    "What is Perfect Information in Game Theory?",
+    "In game theory, perfect information is a fundamental concept where all players have complete knowledge of all past moves made by other players before making their own decisions. This article explores the definition of perfect information, its significanc",
+    false
+  ],
+  [
+    7,
+    "Sequential Decision-Making in Game Theory",
+    "Sequential decision-making fundamentally alters game theory outcomes by introducing the element of time and order, transforming how players anticipate, react to, and influence each other's actions. Unlike simultaneous games where players act at the same",
+    false
+  ],
+  [
+    6,
+    "Game Theory and Simultaneous Decision-Making",
+    "This article explains how game theory models simultaneous decision-making, where multiple actors make choices at the same time without knowing the actions of others. It covers the foundational framework of the normal-form game, the role of the payoff mat",
+    false
+  ],
+  [
+    5,
+    "What is a Dominant Strategy in Game Theory?",
+    "In game theory, a dominant strategy is a foundational concept that describes a choice yielding the highest payoff for a player, regardless of what their opponents decide to do. This article explores the definition of a dominant strategy, distinguishes be",
+    false
+  ],
+  [
+    4,
+    "How is a Payoff Matrix Used in Game Theory?",
+    "A payoff matrix is a fundamental tool in game theory used to visually represent the strategies and outcomes of a strategic interaction between decision-makers. This article explains the structure of a payoff matrix, how it simplifies complex decision-mak",
+    false
+  ],
+  [
+    3,
+    "Cooperative vs Non-Cooperative Game Theory",
+    "Game theory is a mathematical framework used to analyze strategic interactions between decision-makers. This article provides a clear overview of the differences between cooperative and non-cooperative game theory, examining how they model agreements, pl",
+    false
+  ],
+  [
+    2,
+    "What Is a Rational Player in Game Theory?",
+    "In game theory, the concept of a \"rational player\" serves as the foundational assumption for analyzing strategic decision-making. This article explains how game theory defines rationality, exploring the core principles of utility maximization, consistent",
+    false
+  ],
+  [
+    1,
+    "What Is Game Theory? Definition and Core Principles",
+    "This article provides a comprehensive overview of game theory, exploring its fundamental definition, core components, and practical applications. Readers will learn how this mathematical framework models strategic interactions among rational decision-mak",
+    false
+  ]
+]

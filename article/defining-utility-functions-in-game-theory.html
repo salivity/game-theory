@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defining Utility Functions in Game Theory - game-theory</title>
+    <meta name="description" content="This article provides an overview of how utility functions are defined and applied within game theory. It explains how individual preferences are converted into mathematical values, distinguishes between ordinal and cardinal utility, and demonstrates how">
+    <link rel="canonical" href="https://salivity.github.io/game-theory/article/defining-utility-functions-in-game-theory">
+    <link rel="search" type="application/opensearchdescription+xml" title="game-theory" href="/game-theory/opensearch.xml">
+    <link rel="icon" href="/game-theory/favicon.ico">
+    <link rel="stylesheet" href="/game-theory/css/style.css">
+    <link media="print" rel="stylesheet" href="/game-theory/css/print.css">
+    <script src="/game-theory/js/fuse.min.js"></script>
+    <script src="/game-theory/js/script.js"></script>
+    <script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-chtml.min.js" defer></script>
+    <script src="/monetize/monetize.js"></script>
+    <script src="/social/social.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Defining Utility Functions in Game Theory - game-theory" />
+    <meta property="og:url" content="https://salivity.github.io/game-theory/article/defining-utility-functions-in-game-theory" />
+    <meta property="og:image" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:secure_url" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:width" content="1120" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="This article provides an overview of how utility functions are defined and applied within game theory. It explains how individual preferences are converted into mathematical values, distinguishes between ordinal and cardinal utility, and demonstrates how" />
+    <link rel="manifest" href="/game-theory/pwa/manifest.json" />
+</head>
+<body>
+    <header>
+        <a href="/game-theory/" aria-label="Go To Home Page" title="Go To Home Page" id="logo">
+            <span>salivity.github.io/</span><span>game-theory</span>
+        </a>
+        <nav>
+            <ul class="header-links">
+                <li><a href="/game-theory/search" title="Search" aria-label="Go To Search Page"><svg class="svg-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"></path></svg></a></li>
+                <li><a id="theme-toggle" title="Theme" href="javascript:void(0);" aria-label="Toggle Website Theme"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    <div class="article-layout">
+        <aside id="profile-sidebar" class="profile-column" aria-label="Author Profile"></aside>
+        <div class="article-main-column">
+            <article><h1 id="defining-utility-functions-in-game-theory">Defining Utility
+Functions in Game Theory</h1>
+<p>This article provides an overview of how utility functions are
+defined and applied within game theory. It explains how individual
+preferences are converted into mathematical values, distinguishes
+between ordinal and cardinal utility, and demonstrates how these
+functions are used to model strategic decision-making and analyze player
+payoffs in various game scenarios.</p>
+<h2 id="the-core-concept-of-utility-in-game-theory">The Core Concept of
+Utility in Game Theory</h2>
+<p>In game theory, a utility function is a mathematical representation
+of a player's preferences over a set of possible outcomes. If a player
+prefers outcome <span class="math inline">\(A\)</span> to outcome <span
+class="math inline">\(B\)</span>, the utility function assigns a higher
+numerical value to <span class="math inline">\(A\)</span> than to <span
+class="math inline">\(B\)</span>.</p>
+<p>Formally, let <span class="math inline">\(X\)</span> represent the
+set of all possible outcomes in a game. A utility function <span
+class="math inline">\(u\)</span> maps each outcome <span
+class="math inline">\(x\)</span> in <span
+class="math inline">\(X\)</span> to a real number:</p>
+<p><span class="math display">\[u: X \to \mathbb{R}\]</span></p>
+<p>If a player strictly prefers outcome <span
+class="math inline">\(x\)</span> to outcome <span
+class="math inline">\(y\)</span> (denoted as <span
+class="math inline">\(x \succ y\)</span>), then:</p>
+<p><span class="math display">\[u(x) &gt; u(y)\]</span></p>
+<p>If the player is indifferent between the two outcomes (denoted as
+<span class="math inline">\(x \sim y\)</span>), the utility function
+assigns them equal value:</p>
+<p><span class="math display">\[u(x) = u(y)\]</span></p>
+<p>These numerical values, often referred to as payoffs, allow game
+theorists to analyze complex strategic interactions using mathematical
+optimization.</p>
+<h2 id="ordinal-vs-cardinal-utility">Ordinal vs. Cardinal Utility</h2>
+<p>Utility functions are classified into two primary types depending on
+the nature of the decisions being modeled:</p>
+<h3 id="1-ordinal-utility">1. Ordinal Utility</h3>
+<p>Ordinal utility only reflects the sequential ranking of preferences.
+It indicates which outcomes are preferred over others, but the actual
+numerical differences between the payoffs carry no meaning. For example,
+if <span class="math inline">\(u(A) = 3\)</span>, <span
+class="math inline">\(u(B) = 2\)</span>, and <span
+class="math inline">\(u(C) = 1\)</span>, we only know that <span
+class="math inline">\(A\)</span> is preferred to <span
+class="math inline">\(B\)</span>, and <span
+class="math inline">\(B\)</span> is preferred to <span
+class="math inline">\(C\)</span>. We cannot claim that <span
+class="math inline">\(A\)</span> is three times better than <span
+class="math inline">\(C\)</span>. Ordinal utility is sufficient for
+analyzing deterministic games where players choose strategies with
+certain outcomes.</p>
+<h3 id="2-cardinal-utility">2. Cardinal Utility</h3>
+<p>When games involve uncertainty, risk, or mixed strategies (where
+players randomize their choices), ordinal utility is insufficient.
+Instead, game theory relies on cardinal utility, specifically
+<strong>von Neumann-Morgenstern (vNM) utility functions</strong>.
+Cardinal utility measures the intensity of preferences, meaning the
+differences between numerical values are meaningful. This allows for the
+calculation of expected utility.</p>
+<h2 id="expected-utility-theory">Expected Utility Theory</h2>
+<p>Under uncertainty, players do not choose direct outcomes; instead,
+they choose strategies that result in probability distributions over
+outcomes (known as lotteries).</p>
+<p>If a strategy leads to outcome <span
+class="math inline">\(x_1\)</span> with probability <span
+class="math inline">\(p_1\)</span> and outcome <span
+class="math inline">\(x_2\)</span> with probability <span
+class="math inline">\(p_2\)</span>, the expected utility (<span
+class="math inline">\(EU\)</span>) is the weighted sum of the utilities
+of each outcome:</p>
+<p><span class="math display">\[EU = p_1 \cdot u(x_1) + p_2 \cdot
+u(x_2)\]</span></p>
+<p>According to the Expected Utility Theorem, a rational player will
+always choose the strategy that maximizes their expected utility. This
+framework requires the utility function to satisfy four key axioms:</p>
+<ul>
+<li><strong>Completeness:</strong> The player can compare and rank any
+two outcomes.</li>
+<li><strong>Transitivity:</strong> If <span
+class="math inline">\(A\)</span> is preferred to <span
+class="math inline">\(B\)</span>, and <span
+class="math inline">\(B\)</span> to <span
+class="math inline">\(C\)</span>, then <span
+class="math inline">\(A\)</span> must be preferred to <span
+class="math inline">\(C\)</span>.</li>
+<li><strong>Continuity:</strong> There exists a probability at which a
+player is indifferent between a middle outcome and a lottery between the
+best and worst outcomes.</li>
+<li><strong>Independence:</strong> If a player prefers <span
+class="math inline">\(A\)</span> to <span
+class="math inline">\(B\)</span>, they will also prefer a lottery
+between <span class="math inline">\(A\)</span> and <span
+class="math inline">\(C\)</span> over a lottery between <span
+class="math inline">\(B\)</span> and <span
+class="math inline">\(C\)</span>, assuming equal probabilities.</li>
+</ul>
+<h2 id="utility-functions-in-game-representation">Utility Functions in
+Game Representation</h2>
+<p>Once defined, utility functions are used to construct the payoffs in
+game representations:</p>
+<ul>
+<li><strong>Normal Form (Strategic Form):</strong> Payoffs are
+represented in a matrix. Each cell contains the utility values for all
+players corresponding to a specific combination of strategies.</li>
+<li><strong>Extensive Form:</strong> Games are represented as a tree.
+The terminal nodes (leaves) of the tree display the utility values
+received by each player when that specific path of play is reached.</li>
+</ul>
+<p>By defining preferences through these mathematical functions, game
+theory can identify stable strategic profiles, such as the Nash
+Equilibrium, where no player can increase their utility by unilaterally
+changing their strategy.</p></article>
+        <div id="comments-container"></div>
+        <script>
+            const utterancesScript = document.createElement('script');
+            utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
+            utterancesScript.setAttribute('repo', 'salivity/game-theory'); 
+            utterancesScript.setAttribute('issue-term', 'pathname'); 
+            utterancesScript.setAttribute('theme', localStorage.getItem('theme') === 'dark' ? 'github-dark' : 'github-light'); 
+            utterancesScript.setAttribute('crossorigin', 'anonymous');
+            utterancesScript.async = true;
+            document.getElementById('comments-container').appendChild(utterancesScript);
+        </script>
+    
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/game-theory/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/game-theory/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            Copyright &copy; <span id="current-year"></span>
+        </div>
+    </footer>
+</body>
+</html>

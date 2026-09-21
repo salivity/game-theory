@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is Subgame Perfect Equilibrium? - game-theory</title>
+    <meta name="description" content="In game theory, a subgame perfect equilibrium (SPE) is a refinement of the Nash equilibrium concept used to predict outcomes in sequential games where players take turns making decisions. This article explains the definition of a subgame perfect equilibr">
+    <link rel="canonical" href="https://salivity.github.io/game-theory/article/what-is-subgame-perfect-equilibrium">
+    <link rel="search" type="application/opensearchdescription+xml" title="game-theory" href="/game-theory/opensearch.xml">
+    <link rel="icon" href="/game-theory/favicon.ico">
+    <link rel="stylesheet" href="/game-theory/css/style.css">
+    <link media="print" rel="stylesheet" href="/game-theory/css/print.css">
+    <script src="/game-theory/js/fuse.min.js"></script>
+    <script src="/game-theory/js/script.js"></script>
+    <script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-chtml.min.js" defer></script>
+    <script src="/monetize/monetize.js"></script>
+    <script src="/social/social.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="What is Subgame Perfect Equilibrium? - game-theory" />
+    <meta property="og:url" content="https://salivity.github.io/game-theory/article/what-is-subgame-perfect-equilibrium" />
+    <meta property="og:image" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:secure_url" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:width" content="1120" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="In game theory, a subgame perfect equilibrium (SPE) is a refinement of the Nash equilibrium concept used to predict outcomes in sequential games where players take turns making decisions. This article explains the definition of a subgame perfect equilibr" />
+    <link rel="manifest" href="/game-theory/pwa/manifest.json" />
+</head>
+<body>
+    <header>
+        <a href="/game-theory/" aria-label="Go To Home Page" title="Go To Home Page" id="logo">
+            <span>salivity.github.io/</span><span>game-theory</span>
+        </a>
+        <nav>
+            <ul class="header-links">
+                <li><a href="/game-theory/search" title="Search" aria-label="Go To Search Page"><svg class="svg-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"></path></svg></a></li>
+                <li><a id="theme-toggle" title="Theme" href="javascript:void(0);" aria-label="Toggle Website Theme"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    <div class="article-layout">
+        <aside id="profile-sidebar" class="profile-column" aria-label="Author Profile"></aside>
+        <div class="article-main-column">
+            <article><h1 id="what-is-subgame-perfect-equilibrium">What is Subgame Perfect
+Equilibrium?</h1>
+<p>In game theory, a subgame perfect equilibrium (SPE) is a refinement
+of the Nash equilibrium concept used to predict outcomes in sequential
+games where players take turns making decisions. This article explains
+the definition of a subgame perfect equilibrium, why it is crucial for
+eliminating unrealistic outcomes based on non-credible threats, and how
+to find it using the method of backward induction.</p>
+<h2 id="understanding-subgames-and-sequential-games">Understanding
+Subgames and Sequential Games</h2>
+<p>To understand subgame perfect equilibrium, you must first understand
+sequential games and subgames. Unlike simultaneous games where players
+move at the same time, sequential games are played in stages. One player
+moves, and the next player observes that move before making their own
+choice. These games are visually represented using a game tree
+(extensive form).</p>
+<p>A <strong>subgame</strong> is a smaller part of the larger game that
+meets three conditions:</p>
+<ol type="1">
+<li>It begins at a single decision node.</li>
+<li>It includes all the subsequent nodes (and ultimate outcomes) that
+follow that node.</li>
+<li>It does not break up any information sets (meaning players have
+perfect information about how they reached that point).</li>
+</ol>
+<p>The entire game itself is always considered a subgame.</p>
+<h2 id="definition-of-subgame-perfect-equilibrium">Definition of Subgame
+Perfect Equilibrium</h2>
+<p>A strategy profile is a <strong>subgame perfect equilibrium</strong>
+if it constitutes a Nash equilibrium in every single subgame of the
+original game.</p>
+<p>In a standard Nash equilibrium, players choose strategies that are
+best responses to each other. However, in sequential games, standard
+Nash equilibria can sometimes rely on "non-credible threats"—promises to
+take actions that would actually harm the player making the threat if
+they were forced to make the choice. Subgame perfect equilibrium rules
+out these unrealistic threats by requiring that players act rationally
+at every potential stage of the game, even in parts of the game tree
+that are never actually reached during play.</p>
+<h2 id="eliminating-non-credible-threats-an-example">Eliminating
+Non-Credible Threats: An Example</h2>
+<p>Imagine a market entry game with an Incumbent and an Entrant.</p>
+<ol type="1">
+<li>The Entrant decides whether to <strong>Enter</strong> or
+<strong>Stay Out</strong>.</li>
+<li>If the Entrant enters, the Incumbent decides whether to
+<strong>Fight</strong> (wage a price war, hurting both) or
+<strong>Accommodate</strong> (share the market).</li>
+</ol>
+<p>There are two Nash equilibria in this game:</p>
+<ol type="1">
+<li>(Enter, Accommodate)</li>
+<li>(Stay Out, Fight)</li>
+</ol>
+<p>In the second equilibrium, the Incumbent threatens to "Fight" if the
+Entrant enters, which scares the Entrant into staying out. However, this
+threat is non-credible. If the Entrant actually enters, the Incumbent's
+best response is to "Accommodate" because fighting would result in a
+lower payout for the Incumbent.</p>
+<p>By applying subgame perfection, we analyze the subgame that starts
+after the Entrant has entered. In this subgame, the Incumbent's only
+rational choice is to Accommodate. Knowing this, the Entrant will choose
+to Enter. Therefore, the only subgame perfect equilibrium is (Enter,
+Accommodate).</p>
+<h2 id="how-to-find-spe-backward-induction">How to Find SPE: Backward
+Induction</h2>
+<p>The standard method for finding a subgame perfect equilibrium in a
+finite game is <strong>backward induction</strong>. This process
+involves working backward from the end of the game tree to the
+beginning:</p>
+<ol type="1">
+<li><strong>Start at the terminal decision nodes:</strong> Look at the
+very last decisions to be made in the game. Identify the optimal choice
+(the one with the highest payoff) for the player moving at each of these
+final nodes.</li>
+<li><strong>Prune the tree:</strong> Assume that these optimal choices
+will be made, and substitute the payoffs of these choices into the
+decision nodes.</li>
+<li><strong>Move one step backward:</strong> Go to the next-to-last
+decision nodes and determine the optimal choices for the players moving
+at those stages, given the rational choices that will follow.</li>
+<li><strong>Repeat:</strong> Continue this process backward until you
+reach the initial node of the game.</li>
+</ol>
+<p>The path of decisions generated by this process represents the
+subgame perfect equilibrium.</p></article>
+        <div id="comments-container"></div>
+        <script>
+            const utterancesScript = document.createElement('script');
+            utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
+            utterancesScript.setAttribute('repo', 'salivity/game-theory'); 
+            utterancesScript.setAttribute('issue-term', 'pathname'); 
+            utterancesScript.setAttribute('theme', localStorage.getItem('theme') === 'dark' ? 'github-dark' : 'github-light'); 
+            utterancesScript.setAttribute('crossorigin', 'anonymous');
+            utterancesScript.async = true;
+            document.getElementById('comments-container').appendChild(utterancesScript);
+        </script>
+    
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/game-theory/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/game-theory/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            Copyright &copy; <span id="current-year"></span>
+        </div>
+    </footer>
+</body>
+</html>

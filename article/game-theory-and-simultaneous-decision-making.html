@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Theory and Simultaneous Decision-Making - game-theory</title>
+    <meta name="description" content="This article explains how game theory models simultaneous decision-making, where multiple actors make choices at the same time without knowing the actions of others. It covers the foundational framework of the normal-form game, the role of the payoff mat">
+    <link rel="canonical" href="https://salivity.github.io/game-theory/article/game-theory-and-simultaneous-decision-making">
+    <link rel="search" type="application/opensearchdescription+xml" title="game-theory" href="/game-theory/opensearch.xml">
+    <link rel="icon" href="/game-theory/favicon.ico">
+    <link rel="stylesheet" href="/game-theory/css/style.css">
+    <link media="print" rel="stylesheet" href="/game-theory/css/print.css">
+    <script src="/game-theory/js/fuse.min.js"></script>
+    <script src="/game-theory/js/script.js"></script>
+    <script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-chtml.min.js" defer></script>
+    <script src="/monetize/monetize.js"></script>
+    <script src="/social/social.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Game Theory and Simultaneous Decision-Making - game-theory" />
+    <meta property="og:url" content="https://salivity.github.io/game-theory/article/game-theory-and-simultaneous-decision-making" />
+    <meta property="og:image" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:secure_url" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:width" content="1120" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="This article explains how game theory models simultaneous decision-making, where multiple actors make choices at the same time without knowing the actions of others. It covers the foundational framework of the normal-form game, the role of the payoff mat" />
+    <link rel="manifest" href="/game-theory/pwa/manifest.json" />
+</head>
+<body>
+    <header>
+        <a href="/game-theory/" aria-label="Go To Home Page" title="Go To Home Page" id="logo">
+            <span>salivity.github.io/</span><span>game-theory</span>
+        </a>
+        <nav>
+            <ul class="header-links">
+                <li><a href="/game-theory/search" title="Search" aria-label="Go To Search Page"><svg class="svg-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"></path></svg></a></li>
+                <li><a id="theme-toggle" title="Theme" href="javascript:void(0);" aria-label="Toggle Website Theme"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    <div class="article-layout">
+        <aside id="profile-sidebar" class="profile-column" aria-label="Author Profile"></aside>
+        <div class="article-main-column">
+            <article><h1 id="game-theory-and-simultaneous-decision-making">Game Theory and
+Simultaneous Decision-Making</h1>
+<p>This article explains how game theory models simultaneous
+decision-making, where multiple actors make choices at the same time
+without knowing the actions of others. It covers the foundational
+framework of the normal-form game, the role of the payoff matrix, and
+how concepts like dominant strategies and the Nash Equilibrium are used
+to predict outcomes in strategic environments.</p>
+<h2 id="the-normal-form-game-and-payoff-matrix">The Normal-Form Game and
+Payoff Matrix</h2>
+<p>In game theory, simultaneous decision-making is represented using a
+framework called a normal-form game, or a strategic-form game. Unlike
+sequential games where players take turns, simultaneous games assume
+players make their decisions at the exact same time, or at least in
+isolation without observing the opponent's choice beforehand.</p>
+<p>The primary tool used to model this behavior is the payoff matrix. A
+payoff matrix is a visual table that maps out:</p>
+<ul>
+<li><strong>The Players:</strong> The decision-makers involved in the
+game (typically two players in simplified models).</li>
+<li><strong>The Strategies:</strong> The complete set of choices
+available to each player.</li>
+<li><strong>The Payoffs:</strong> The outcomes or rewards for each
+player resulting from every possible combination of strategies.</li>
+</ul>
+<p>In a standard two-player matrix, one player's strategies define the
+rows, the other player's strategies define the columns, and the
+intersecting cells display the respective payoffs for both.</p>
+<h2 id="dominant-strategies">Dominant Strategies</h2>
+<p>To analyze how players make decisions, game theorists first look for
+dominant strategies. A dominant strategy is a choice that yields a
+higher payoff for a player than any other strategy, regardless of what
+the opponent decides to do.</p>
+<p>If a player has a dominant strategy, they will rationally choose it.
+If both players have dominant strategies, the outcome of the game is
+highly predictable, as both players will play their dominant strategies,
+leading to a dominant strategy equilibrium.</p>
+<h2 id="the-nash-equilibrium">The Nash Equilibrium</h2>
+<p>Not all simultaneous games feature dominant strategies. In these
+cases, game theorists use the concept of the Nash Equilibrium to predict
+the outcome. Named after mathematician John Nash, a Nash Equilibrium is
+a state where no player can benefit by unilaterally changing their
+strategy while the other players keep theirs unchanged.</p>
+<p>To find a Nash Equilibrium in a payoff matrix, analysts use the "best
+response" method:</p>
+<ol type="1">
+<li>Assume Player A chooses Strategy 1. Identify Player B's best
+response (highest payoff).</li>
+<li>Repeat this for all of Player A's possible strategies.</li>
+<li>Do the same from Player A's perspective, assuming Player B chooses
+specific strategies.</li>
+<li>Any cell where both players are playing their mutual best responses
+is a Nash Equilibrium.</li>
+</ol>
+<p>A simultaneous game can have one Nash Equilibrium, multiple
+equilibria, or none at all in pure strategies.</p>
+<h2 id="the-prisoners-dilemma-a-classic-model">The Prisoner's Dilemma: A
+Classic Model</h2>
+<p>The most famous example of a simultaneous game is the Prisoner's
+Dilemma. Two suspects are arrested and interrogated separately. They
+both have two choices: "Cooperate" (remain silent) or "Defect" (betray
+the other).</p>
+<ul>
+<li>If both remain silent, they both get a light sentence (e.g., 1
+year).</li>
+<li>If one betrays and the other remains silent, the betrayer goes free
+(0 years) and the silent one gets a heavy sentence (3 years).</li>
+<li>If both betray, both get a moderate sentence (2 years).</li>
+</ul>
+<p>Even though cooperating yields the best collective outcome (1 year
+each), defecting is the dominant strategy for both players. As a result,
+the simultaneous decision-making process leads both players to defect,
+resulting in a Nash Equilibrium where both get 2 years in prison. This
+highlights how individual rationality can lead to collective
+inefficiency in simultaneous games.</p>
+<h2 id="mixed-strategies">Mixed Strategies</h2>
+<p>When no single choice guarantees a stable outcome, players may rely
+on mixed strategies. In a mixed strategy Nash Equilibrium, players
+randomize their choices according to specific probabilities (e.g.,
+choosing Option A 60% of the time and Option B 40% of the time) to keep
+their opponents guessing. This is common in competitive situations like
+sports or rock-paper-scissors, where predictability is a
+disadvantage.</p></article>
+        <div id="comments-container"></div>
+        <script>
+            const utterancesScript = document.createElement('script');
+            utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
+            utterancesScript.setAttribute('repo', 'salivity/game-theory'); 
+            utterancesScript.setAttribute('issue-term', 'pathname'); 
+            utterancesScript.setAttribute('theme', localStorage.getItem('theme') === 'dark' ? 'github-dark' : 'github-light'); 
+            utterancesScript.setAttribute('crossorigin', 'anonymous');
+            utterancesScript.async = true;
+            document.getElementById('comments-container').appendChild(utterancesScript);
+        </script>
+    
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/game-theory/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/game-theory/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            Copyright &copy; <span id="current-year"></span>
+        </div>
+    </footer>
+</body>
+</html>

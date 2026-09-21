@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tragedy of the Commons in Evolutionary Game Theory - game-theory</title>
+    <meta name="description" content="This article explores how evolutionary game theory (EGT) models the tragedy of the commons, a scenario where individual self-interest depletes a shared resource. By replacing the assumption of perfect human rationality with evolutionary dynamics, EGT exp">
+    <link rel="canonical" href="https://salivity.github.io/game-theory/article/tragedy-of-the-commons-in-evolutionary-game-theory">
+    <link rel="search" type="application/opensearchdescription+xml" title="game-theory" href="/game-theory/opensearch.xml">
+    <link rel="icon" href="/game-theory/favicon.ico">
+    <link rel="stylesheet" href="/game-theory/css/style.css">
+    <link media="print" rel="stylesheet" href="/game-theory/css/print.css">
+    <script src="/game-theory/js/fuse.min.js"></script>
+    <script src="/game-theory/js/script.js"></script>
+    <script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-chtml.min.js" defer></script>
+    <script src="/monetize/monetize.js"></script>
+    <script src="/social/social.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tragedy of the Commons in Evolutionary Game Theory - game-theory" />
+    <meta property="og:url" content="https://salivity.github.io/game-theory/article/tragedy-of-the-commons-in-evolutionary-game-theory" />
+    <meta property="og:image" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:secure_url" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:width" content="1120" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="This article explores how evolutionary game theory (EGT) models the tragedy of the commons, a scenario where individual self-interest depletes a shared resource. By replacing the assumption of perfect human rationality with evolutionary dynamics, EGT exp" />
+    <link rel="manifest" href="/game-theory/pwa/manifest.json" />
+</head>
+<body>
+    <header>
+        <a href="/game-theory/" aria-label="Go To Home Page" title="Go To Home Page" id="logo">
+            <span>salivity.github.io/</span><span>game-theory</span>
+        </a>
+        <nav>
+            <ul class="header-links">
+                <li><a href="/game-theory/search" title="Search" aria-label="Go To Search Page"><svg class="svg-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"></path></svg></a></li>
+                <li><a id="theme-toggle" title="Theme" href="javascript:void(0);" aria-label="Toggle Website Theme"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    <div class="article-layout">
+        <aside id="profile-sidebar" class="profile-column" aria-label="Author Profile"></aside>
+        <div class="article-main-column">
+            <article><h1 id="tragedy-of-the-commons-in-evolutionary-game-theory">Tragedy of
+the Commons in Evolutionary Game Theory</h1>
+<p>This article explores how evolutionary game theory (EGT) models the
+tragedy of the commons, a scenario where individual self-interest
+depletes a shared resource. By replacing the assumption of perfect human
+rationality with evolutionary dynamics, EGT explains how cooperative and
+selfish behaviors propagate within a population. We examine the
+mathematical frameworks used to represent this dilemma—primarily the
+Prisoner's Dilemma and the Public Goods Game—and how concepts like
+replicator dynamics and Evolutionary Stable Strategies (ESS) illustrate
+the conditions under which cooperation survives or collapses.</p>
+<h2 id="from-classic-to-evolutionary-game-theory">From Classic to
+Evolutionary Game Theory</h2>
+<p>In classical economics, the tragedy of the commons is modeled using
+static game theory, assuming rational players who choose strategies to
+maximize their immediate payoffs. The predictable result is a Nash
+equilibrium where everyone defects (exploits the resource), leading to
+ruin.</p>
+<p>Evolutionary game theory shifts the focus from static, rational
+decision-making to a dynamic process of natural selection. In EGT,
+players are programmed with specific strategies (e.g., to cooperate or
+to defect). Instead of "utility," strategies yield "fitness" (payoffs in
+terms of reproductive success or imitation rate). Strategies that yield
+higher-than-average payoffs replicate and grow within the population
+over time, while less successful strategies decline.</p>
+<h2 id="the-mathematical-models">The Mathematical Models</h2>
+<p>The tragedy of the commons is mathematically represented in EGT using
+two primary game frameworks:</p>
+<h3 id="1-the-prisoners-dilemma-two-player">1. The Prisoner’s Dilemma
+(Two-Player)</h3>
+<p>The simplest model is a symmetric two-player game with two
+strategies:</p>
+<ul>
+<li><strong>Cooperate (C):</strong> Restrain resource use or contribute
+to its maintenance.</li>
+<li><strong>Defect (D):</strong> Overexploit the resource.</li>
+</ul>
+<p>If both cooperate, they receive a high reward. If one defects while
+the other cooperates, the defector receives the highest payoff
+(free-riding), while the cooperator receives the lowest ("sucker's
+payoff"). If both defect, they receive a low payoff.</p>
+<h3 id="2-the-public-goods-game-multi-player">2. The Public Goods Game
+(Multi-Player)</h3>
+<p>To better reflect real-world ecological systems, EGT utilizes the
+<span class="math inline">\(N\)</span>-player Public Goods Game (PGG).
+In this model:</p>
+<ul>
+<li><span class="math inline">\(N\)</span> players decide whether to
+contribute a cost <span class="math inline">\(c\)</span> to a common
+pool.</li>
+<li>The total contributions are multiplied by an enhancement factor
+<span class="math inline">\(r\)</span> (<span class="math inline">\(1
+&lt; r &lt; N\)</span>) and distributed equally among all <span
+class="math inline">\(N\)</span> players, regardless of their
+contribution.</li>
+<li>A defector contributes <span class="math inline">\(0\)</span> but
+receives an equal share of the enhanced pool, always yielding a higher
+individual payoff than a cooperator in the same group.</li>
+</ul>
+<h2 id="replicator-dynamics-and-the-collapse-of-cooperation">Replicator
+Dynamics and the Collapse of Cooperation</h2>
+<p>To model how these strategies evolve over time, EGT uses
+<strong>replicator dynamics</strong>. This system of differential
+equations dictates that the growth rate of a strategy is proportional to
+the difference between its payoff and the average payoff of the entire
+population.</p>
+<p>The standard replicator equation is:</p>
+<p><span class="math display">\[\dot{x}_i = x_i [f_i(x) -
+\phi(x)]\]</span></p>
+<p>Where:</p>
+<ul>
+<li><span class="math inline">\(x_i\)</span> is the frequency of
+strategy <span class="math inline">\(i\)</span>.</li>
+<li><span class="math inline">\(f_i(x)\)</span> is the fitness (payoff)
+of strategy <span class="math inline">\(i\)</span>.</li>
+<li><span class="math inline">\(\phi(x)\)</span> is the average fitness
+of the population.</li>
+</ul>
+<p>In a well-mixed, unstructured population playing a standard Public
+Goods Game, the fitness of defectors is always strictly higher than the
+fitness of cooperators, regardless of the population mix. Consequently,
+the replicator dynamics show that the frequency of cooperators (<span
+class="math inline">\(\dot{x}_c\)</span>) continuously decreases to
+zero.</p>
+<p>In this scenario, <strong>Defection is the only Evolutionary Stable
+Strategy (ESS)</strong>. An ESS is a strategy which, if adopted by a
+population, cannot be invaded by any alternative mutant strategy. The
+tragedy of the commons is thus realized as the evolutionary
+inevitability of total defection.</p>
+<h2 id="how-cooperation-evolves-to-avoid-the-tragedy">How Cooperation
+Evolves to Avoid the Tragedy</h2>
+<p>While basic EGT models predict total ruin, real-world biological and
+human systems often successfully manage shared resources. EGT
+researchers modify the basic models to explain how cooperation can
+evolve as an ESS:</p>
+<h3 id="network-and-spatial-reciprocity">Network and Spatial
+Reciprocity</h3>
+<p>In well-mixed populations, defectors can exploit any cooperator.
+However, when players are arranged on a social network or spatial grid,
+they only interact with their immediate neighbors. Cooperators can form
+tight-knit clusters, sharing the benefits of the resource among
+themselves while shutting out defectors on the periphery. This spatial
+clustering allows cooperation to resist invasion by defectors.</p>
+<h3 id="costly-punishment">Costly Punishment</h3>
+<p>By introducing a third strategy—<strong>punishers</strong> who pay a
+small cost to reduce the payoff of defectors—the evolutionary dynamics
+change. If the frequency of punishers is high enough, defection ceases
+to be profitable, making cooperation the evolutionary stable state.</p>
+<h3 id="voluntary-participation">Voluntary Participation</h3>
+<p>When individuals are allowed to opt out of the public goods game to
+pursue a small, risk-free solitary payoff, the system undergoes cyclic
+dominance. Defectors dominate cooperators, loners dominate defectors
+(who have no one left to exploit), and cooperators dominate loners (by
+forming productive groups). This prevents the permanent collapse of the
+resource.</p></article>
+        <div id="comments-container"></div>
+        <script>
+            const utterancesScript = document.createElement('script');
+            utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
+            utterancesScript.setAttribute('repo', 'salivity/game-theory'); 
+            utterancesScript.setAttribute('issue-term', 'pathname'); 
+            utterancesScript.setAttribute('theme', localStorage.getItem('theme') === 'dark' ? 'github-dark' : 'github-light'); 
+            utterancesScript.setAttribute('crossorigin', 'anonymous');
+            utterancesScript.async = true;
+            document.getElementById('comments-container').appendChild(utterancesScript);
+        </script>
+    
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/game-theory/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/game-theory/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            Copyright &copy; <span id="current-year"></span>
+        </div>
+    </footer>
+</body>
+</html>

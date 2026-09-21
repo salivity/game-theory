@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weakly Dominated Strategy in Game Theory Explained - game-theory</title>
+    <meta name="description" content="In game theory, strategic decision-making relies on understanding how different choices compare to one another. This article defines the concept of a weakly dominated strategy, explains how it differs from a strictly dominated strategy, provides a clear">
+    <link rel="canonical" href="https://salivity.github.io/game-theory/article/weakly-dominated-strategy-in-game-theory-explained">
+    <link rel="search" type="application/opensearchdescription+xml" title="game-theory" href="/game-theory/opensearch.xml">
+    <link rel="icon" href="/game-theory/favicon.ico">
+    <link rel="stylesheet" href="/game-theory/css/style.css">
+    <link media="print" rel="stylesheet" href="/game-theory/css/print.css">
+    <script src="/game-theory/js/fuse.min.js"></script>
+    <script src="/game-theory/js/script.js"></script>
+    <script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-chtml.min.js" defer></script>
+    <script src="/monetize/monetize.js"></script>
+    <script src="/social/social.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Weakly Dominated Strategy in Game Theory Explained - game-theory" />
+    <meta property="og:url" content="https://salivity.github.io/game-theory/article/weakly-dominated-strategy-in-game-theory-explained" />
+    <meta property="og:image" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:secure_url" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:width" content="1120" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="In game theory, strategic decision-making relies on understanding how different choices compare to one another. This article defines the concept of a weakly dominated strategy, explains how it differs from a strictly dominated strategy, provides a clear" />
+    <link rel="manifest" href="/game-theory/pwa/manifest.json" />
+</head>
+<body>
+    <header>
+        <a href="/game-theory/" aria-label="Go To Home Page" title="Go To Home Page" id="logo">
+            <span>salivity.github.io/</span><span>game-theory</span>
+        </a>
+        <nav>
+            <ul class="header-links">
+                <li><a href="/game-theory/search" title="Search" aria-label="Go To Search Page"><svg class="svg-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"></path></svg></a></li>
+                <li><a id="theme-toggle" title="Theme" href="javascript:void(0);" aria-label="Toggle Website Theme"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    <div class="article-layout">
+        <aside id="profile-sidebar" class="profile-column" aria-label="Author Profile"></aside>
+        <div class="article-main-column">
+            <article><h1 id="weakly-dominated-strategy-in-game-theory-explained">Weakly
+Dominated Strategy in Game Theory Explained</h1>
+<p>In game theory, strategic decision-making relies on understanding how
+different choices compare to one another. This article defines the
+concept of a weakly dominated strategy, explains how it differs from a
+strictly dominated strategy, provides a clear payoff matrix example, and
+discusses its significance in solving games and predicting rational
+outcomes.</p>
+<h2 id="understanding-weakly-dominated-strategies">Understanding Weakly
+Dominated Strategies</h2>
+<p>A strategy is considered <strong>weakly dominated</strong> if there
+is another strategy available to the player that yields a payoff at
+least as high in all possible scenarios, and a strictly higher payoff in
+at least one scenario.</p>
+<p>In simpler terms, if Strategy A is weakly dominated by Strategy
+B:</p>
+<ul>
+<li>Strategy B is never worse than Strategy A.</li>
+<li>Strategy B is sometimes better than Strategy A, depending on what
+the other players choose to do.</li>
+</ul>
+<p>Because Strategy B is always an equal or superior choice, a rational
+player has no strong incentive to choose the weakly dominated Strategy
+A.</p>
+<h2 id="weak-vs-strict-dominance">Weak vs. Strict Dominance</h2>
+<p>To fully grasp weak dominance, it is helpful to contrast it with
+strict dominance:</p>
+<ul>
+<li><strong>Strictly Dominated Strategy:</strong> Strategy A is strictly
+dominated by Strategy B if Strategy B <em>always</em> yields a strictly
+higher payoff than Strategy A, regardless of the opponent's actions.
+Rational players will never play a strictly dominated strategy.</li>
+<li><strong>Weakly Dominated Strategy:</strong> Strategy A is weakly
+dominated by Strategy B if Strategy B yields a payoff that is
+<em>greater than or equal to</em> Strategy A's payoff for all opponent
+moves, and <em>strictly greater</em> for at least one opponent
+move.</li>
+</ul>
+<h2 id="a-practical-example">A Practical Example</h2>
+<p>Consider a two-player game where Player 1 must choose between
+Strategy <strong>Up</strong> and Strategy <strong>Down</strong>, while
+Player 2 chooses between <strong>Left</strong> and
+<strong>Right</strong>.</p>
+<p>Let's look at Player 1's payoffs (the first number in each pair):</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Player 2: Left</th>
+<th>Player 2: Right</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Player 1: Up</strong></td>
+<td><strong>5</strong>, 3</td>
+<td><strong>3</strong>, 2</td>
+</tr>
+<tr>
+<td><strong>Player 1: Down</strong></td>
+<td><strong>5</strong>, 1</td>
+<td><strong>1</strong>, 4</td>
+</tr>
+</tbody>
+</table>
+<p>To determine if Player 1 has a weakly dominated strategy, compare the
+payoffs of <strong>Up</strong> and <strong>Down</strong>:</p>
+<ol type="1">
+<li><strong>If Player 2 plays Left:</strong> Player 1 gets
+<strong>5</strong> by playing Up, and <strong>5</strong> by playing
+Down. (Payoffs are equal).</li>
+<li><strong>If Player 2 plays Right:</strong> Player 1 gets
+<strong>3</strong> by playing Up, and <strong>1</strong> by playing
+Down. (Up is strictly better).</li>
+</ol>
+<p>Since playing <strong>Up</strong> is equal to <strong>Down</strong>
+in one scenario and strictly better than <strong>Down</strong> in the
+other, <strong>Down</strong> is a weakly dominated strategy for Player
+1. Conversely, <strong>Up</strong> weakly dominates
+<strong>Down</strong>.</p>
+<h2 id="solving-games-using-weak-dominance">Solving Games Using Weak
+Dominance</h2>
+<p>In game theory, analysts often simplify complex games using a process
+called <strong>Iterated Elimination of Dominated Strategies
+(IEDS)</strong>. By systematically removing dominated strategies, you
+can narrow down the potential rational outcomes of a game.</p>
+<p>However, eliminating weakly dominated strategies comes with a major
+caveat that does not apply to strictly dominated ones: <strong>the order
+of elimination matters</strong>.</p>
+<p>When you eliminate strictly dominated strategies, you will always
+arrive at the same final set of strategies regardless of the order in
+which you remove them. With weakly dominated strategies, changing the
+order of elimination can actually change the final equilibrium of the
+game. For this reason, game theorists handle the elimination of weakly
+dominated strategies with extra caution.</p></article>
+        <div id="comments-container"></div>
+        <script>
+            const utterancesScript = document.createElement('script');
+            utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
+            utterancesScript.setAttribute('repo', 'salivity/game-theory'); 
+            utterancesScript.setAttribute('issue-term', 'pathname'); 
+            utterancesScript.setAttribute('theme', localStorage.getItem('theme') === 'dark' ? 'github-dark' : 'github-light'); 
+            utterancesScript.setAttribute('crossorigin', 'anonymous');
+            utterancesScript.async = true;
+            document.getElementById('comments-container').appendChild(utterancesScript);
+        </script>
+    
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/game-theory/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/game-theory/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            Copyright &copy; <span id="current-year"></span>
+        </div>
+    </footer>
+</body>
+</html>

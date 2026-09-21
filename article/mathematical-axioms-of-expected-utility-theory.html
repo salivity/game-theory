@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Axioms of Expected Utility Theory - game-theory</title>
+    <meta name="description" content="Expected utility theory is a cornerstone of modern game theory and decision theory, providing a framework for analyzing choices under uncertainty. This article explores the core mathematical axioms—completeness, transitivity, continuity, and independen">
+    <link rel="canonical" href="https://salivity.github.io/game-theory/article/mathematical-axioms-of-expected-utility-theory">
+    <link rel="search" type="application/opensearchdescription+xml" title="game-theory" href="/game-theory/opensearch.xml">
+    <link rel="icon" href="/game-theory/favicon.ico">
+    <link rel="stylesheet" href="/game-theory/css/style.css">
+    <link media="print" rel="stylesheet" href="/game-theory/css/print.css">
+    <script src="/game-theory/js/fuse.min.js"></script>
+    <script src="/game-theory/js/script.js"></script>
+    <script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-chtml.min.js" defer></script>
+    <script src="/monetize/monetize.js"></script>
+    <script src="/social/social.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mathematical Axioms of Expected Utility Theory - game-theory" />
+    <meta property="og:url" content="https://salivity.github.io/game-theory/article/mathematical-axioms-of-expected-utility-theory" />
+    <meta property="og:image" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:secure_url" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:width" content="1120" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="Expected utility theory is a cornerstone of modern game theory and decision theory, providing a framework for analyzing choices under uncertainty. This article explores the core mathematical axioms—completeness, transitivity, continuity, and independen" />
+    <link rel="manifest" href="/game-theory/pwa/manifest.json" />
+</head>
+<body>
+    <header>
+        <a href="/game-theory/" aria-label="Go To Home Page" title="Go To Home Page" id="logo">
+            <span>salivity.github.io/</span><span>game-theory</span>
+        </a>
+        <nav>
+            <ul class="header-links">
+                <li><a href="/game-theory/search" title="Search" aria-label="Go To Search Page"><svg class="svg-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"></path></svg></a></li>
+                <li><a id="theme-toggle" title="Theme" href="javascript:void(0);" aria-label="Toggle Website Theme"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    <div class="article-layout">
+        <aside id="profile-sidebar" class="profile-column" aria-label="Author Profile"></aside>
+        <div class="article-main-column">
+            <article><h1 id="mathematical-axioms-of-expected-utility-theory">Mathematical
+Axioms of Expected Utility Theory</h1>
+<p>Expected utility theory is a cornerstone of modern game theory and
+decision theory, providing a framework for analyzing choices under
+uncertainty. This article explores the core mathematical
+axioms—completeness, transitivity, continuity, and
+independence—established by John von Neumann and Oskar Morgenstern,
+which guarantee that a rational decision-maker's preferences can be
+represented by a utility function.</p>
+<h3 id="the-von-neumann-morgenstern-utility-theorem">The Von
+Neumann-Morgenstern Utility Theorem</h3>
+<p>To model decisions under risk, game theory relies on the Von
+Neumann-Morgenstern (VNM) formulation. This framework assumes a
+decision-maker faces choices among "lotteries" (probability
+distributions over a set of outcomes). For a decision-maker's
+preferences to be mathematically represented by an expected utility
+function, their choices must satisfy four foundational axioms.</p>
+<hr />
+<h3 id="1-completeness">1. Completeness</h3>
+<p>The axiom of completeness assumes that an individual has well-defined
+preferences and can always compare any two alternatives.</p>
+<p>For any two lotteries <span class="math inline">\(A\)</span> and
+<span class="math inline">\(B\)</span>, exactly one of the following
+must hold:</p>
+<ul>
+<li><span class="math inline">\(A \succ B\)</span> (A is strictly
+preferred to B)</li>
+<li><span class="math inline">\(B \succ A\)</span> (B is strictly
+preferred to A)</li>
+<li><span class="math inline">\(A \sim B\)</span> (The decision-maker is
+indifferent between A and B)</li>
+</ul>
+<p>This rules out the possibility that a decision-maker is unable to
+make a choice or compare options.</p>
+<hr />
+<h3 id="2-transitivity">2. Transitivity</h3>
+<p>Transitivity ensures that a decision-maker's preferences are
+internally consistent.</p>
+<p>If a decision-maker prefers lottery <span
+class="math inline">\(A\)</span> to lottery <span
+class="math inline">\(B\)</span>, and prefers lottery <span
+class="math inline">\(B\)</span> to lottery <span
+class="math inline">\(C\)</span>, then they must prefer lottery <span
+class="math inline">\(A\)</span> to lottery <span
+class="math inline">\(C\)</span>: <span class="math display">\[\text{If
+} A \succeq B \text{ and } B \succeq C, \text{ then } A \succeq
+C\]</span></p>
+<p>Without transitivity, a decision-maker could hold cyclical
+preferences (preferring A to B, B to C, and C to A), making rational
+choice impossible and leaving them vulnerable to being used as a "money
+pump" in economic transactions.</p>
+<hr />
+<h3 id="3-continuity">3. Continuity</h3>
+<p>The continuity axiom states that there is no infinitely good or
+infinitely bad outcome. It establishes a middle ground between extreme
+choices using probabilities.</p>
+<p>If a decision-maker prefers <span class="math inline">\(A\)</span> to
+<span class="math inline">\(B\)</span>, and <span
+class="math inline">\(B\)</span> to <span
+class="math inline">\(C\)</span>, there must exist a probability <span
+class="math inline">\(p \in (0, 1)\)</span> such that the decision-maker
+is indifferent between receiving the middle option <span
+class="math inline">\(B\)</span> for sure, or taking a lottery that
+yields <span class="math inline">\(A\)</span> with probability <span
+class="math inline">\(p\)</span> and <span
+class="math inline">\(C\)</span> with probability <span
+class="math inline">\(1-p\)</span>: <span class="math display">\[pA +
+(1-p)C \sim B\]</span></p>
+<p>This axiom ensures that preferences do not jump abruptly and rules
+out lexicographic preferences (where one dimension of a choice
+completely overrides another, regardless of probability).</p>
+<hr />
+<h3 id="4-independence">4. Independence</h3>
+<p>The independence axiom asserts that if we mix two lotteries with a
+third common lottery, the relative preference between the original two
+lotteries does not change.</p>
+<p>If <span class="math inline">\(A\)</span> is preferred to <span
+class="math inline">\(B\)</span>, then for any third lottery <span
+class="math inline">\(C\)</span> and any probability <span
+class="math inline">\(p \in (0, 1]\)</span>: <span
+class="math display">\[pA + (1-p)C \succeq pB + (1-p)C\]</span></p>
+<p>This means that a decision-maker's preference between <span
+class="math inline">\(A\)</span> and <span
+class="math inline">\(B\)</span> should be independent of the presence
+of an irrelevant alternative <span class="math inline">\(C\)</span>,
+assuming both are scaled by the exact same probability.</p>
+<hr />
+<h3 id="the-expected-utility-representation">The Expected Utility
+Representation</h3>
+<p>When a decision-maker's preferences satisfy these four axioms, the
+VNM Utility Theorem proves that there exists a real-valued utility
+function <span class="math inline">\(u\)</span> that assigns a number to
+each outcome. The utility of any lottery <span
+class="math inline">\(L\)</span> with outcomes <span
+class="math inline">\(x_i\)</span> occurring with probabilities <span
+class="math inline">\(p_i\)</span> is simply the expected value of the
+utilities of those outcomes:</p>
+<p><span class="math display">\[U(L) = \sum p_i u(x_i)\]</span></p>
+<p>In game theory, this allows complex tactical interactions to be
+modeled numerically, as players seek to maximize their expected utility
+based on their opponents' anticipated actions.</p></article>
+        <div id="comments-container"></div>
+        <script>
+            const utterancesScript = document.createElement('script');
+            utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
+            utterancesScript.setAttribute('repo', 'salivity/game-theory'); 
+            utterancesScript.setAttribute('issue-term', 'pathname'); 
+            utterancesScript.setAttribute('theme', localStorage.getItem('theme') === 'dark' ? 'github-dark' : 'github-light'); 
+            utterancesScript.setAttribute('crossorigin', 'anonymous');
+            utterancesScript.async = true;
+            document.getElementById('comments-container').appendChild(utterancesScript);
+        </script>
+    
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/game-theory/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/game-theory/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            Copyright &copy; <span id="current-year"></span>
+        </div>
+    </footer>
+</body>
+</html>

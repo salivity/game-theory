@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Chicken Game Theory Explained - game-theory</title>
+    <meta name="description" content="The Game of Chicken is a classic model in game theory used to analyze conflict, brinkmanship, and strategic decision-making between two competing players. This article explains the fundamental rules of the game, examines its payoff matrix, identifies the">
+    <link rel="canonical" href="https://salivity.github.io/game-theory/article/game-of-chicken-game-theory-explained">
+    <link rel="search" type="application/opensearchdescription+xml" title="game-theory" href="/game-theory/opensearch.xml">
+    <link rel="icon" href="/game-theory/favicon.ico">
+    <link rel="stylesheet" href="/game-theory/css/style.css">
+    <link media="print" rel="stylesheet" href="/game-theory/css/print.css">
+    <script src="/game-theory/js/fuse.min.js"></script>
+    <script src="/game-theory/js/script.js"></script>
+    <script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-chtml.min.js" defer></script>
+    <script src="/monetize/monetize.js"></script>
+    <script src="/social/social.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Game of Chicken Game Theory Explained - game-theory" />
+    <meta property="og:url" content="https://salivity.github.io/game-theory/article/game-of-chicken-game-theory-explained" />
+    <meta property="og:image" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:secure_url" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:width" content="1120" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="The Game of Chicken is a classic model in game theory used to analyze conflict, brinkmanship, and strategic decision-making between two competing players. This article explains the fundamental rules of the game, examines its payoff matrix, identifies the" />
+    <link rel="manifest" href="/game-theory/pwa/manifest.json" />
+</head>
+<body>
+    <header>
+        <a href="/game-theory/" aria-label="Go To Home Page" title="Go To Home Page" id="logo">
+            <span>salivity.github.io/</span><span>game-theory</span>
+        </a>
+        <nav>
+            <ul class="header-links">
+                <li><a href="/game-theory/search" title="Search" aria-label="Go To Search Page"><svg class="svg-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"></path></svg></a></li>
+                <li><a id="theme-toggle" title="Theme" href="javascript:void(0);" aria-label="Toggle Website Theme"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    <div class="article-layout">
+        <aside id="profile-sidebar" class="profile-column" aria-label="Author Profile"></aside>
+        <div class="article-main-column">
+            <article><h1 id="game-of-chicken-game-theory-explained">Game of Chicken Game
+Theory Explained</h1>
+<p>The Game of Chicken is a classic model in game theory used to analyze
+conflict, brinkmanship, and strategic decision-making between two
+competing players. This article explains the fundamental rules of the
+game, examines its payoff matrix, identifies the pure and mixed strategy
+Nash equilibria, and explores how this mathematical model applies to
+real-world scenarios like international relations and business
+negotiations.</p>
+<h2 id="the-premise-of-the-game">The Premise of the Game</h2>
+<p>The classic visualization of the game involves two drivers heading
+directly toward each other on a narrow road. Each driver has two
+choices:</p>
+<ol type="1">
+<li><strong>Swerve</strong> (yield or cooperate)</li>
+<li><strong>Go Straight</strong> (dare or defect)</li>
+</ol>
+<p>The payoffs for these choices depend entirely on what the other
+driver does:</p>
+<ul>
+<li><strong>Both Swerve:</strong> Both players survive and save face,
+resulting in a neutral or slightly positive outcome for both.</li>
+<li><strong>One Swerves, One Goes Straight:</strong> The player who goes
+straight wins (the "hero"), while the player who swerves loses face (the
+"chicken").</li>
+<li><strong>Both Go Straight:</strong> Both players collide, resulting
+in a catastrophic crash—the worst possible outcome for both.</li>
+</ul>
+<h2 id="the-payoff-matrix">The Payoff Matrix</h2>
+<p>To analyze the game mathematically, we assign numerical values to
+these outcomes, where higher numbers represent better results:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Player 1 / Player 2</th>
+<th style="text-align: left;">Swerve (Cooperate)</th>
+<th style="text-align: left;">Straight (Defect)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Swerve (Cooperate)</strong></td>
+<td style="text-align: left;">(0, 0)</td>
+<td style="text-align: left;">(-1, +1)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Straight (Defect)</strong></td>
+<td style="text-align: left;">(+1, -1)</td>
+<td style="text-align: left;">(-10, -10)</td>
+</tr>
+</tbody>
+</table>
+<p>In this matrix, the worst outcome is double defection (-10, -10). The
+best outcome for an individual is to defect while the other cooperates
+(+1), while the person who yields receives a minor reputational penalty
+(-1).</p>
+<h2 id="finding-the-nash-equilibria">Finding the Nash Equilibria</h2>
+<p>A Nash equilibrium occurs when neither player has an incentive to
+unilaterally change their strategy. The Game of Chicken has two
+<strong>pure strategy Nash equilibria</strong>:</p>
+<ol type="1">
+<li><strong>(Straight, Swerve):</strong> Player 1 goes straight, and
+Player 2 swerves.</li>
+<li><strong>(Swerve, Straight):</strong> Player 1 swerves, and Player 2
+goes straight.</li>
+</ol>
+<p>If Player 1 knows Player 2 will swerve, Player 1's best response is
+to go straight to get the highest payoff (+1). If Player 1 knows Player
+2 will go straight, Player 1's best response is to swerve to avoid the
+catastrophic crash (-1 instead of -10).</p>
+<p>Because there are two equilibria, the game suffers from a
+coordination problem. Neither player knows for sure which equilibrium
+will be reached without communication or strategic signaling.</p>
+<h3 id="mixed-strategy-equilibrium">Mixed Strategy Equilibrium</h3>
+<p>There is also a <strong>mixed strategy Nash equilibrium</strong>
+where players randomize their choices. Each player calculates a
+probability of going straight versus swerving that makes the opponent
+indifferent to either choice. In a high-stakes scenario, this translates
+to players occasionally risking a crash to maximize their chances of
+winning, though this carries a statistical probability of mutual
+disaster.</p>
+<h2 id="strategic-moves-how-to-win">Strategic Moves: How to Win</h2>
+<p>To secure the winning outcome (Straight, Swerve), a player must
+convincingly signal to the opponent that they will not yield under any
+circumstances. This is known as <strong>brinkmanship</strong>. Common
+tactics include:</p>
+<ul>
+<li><strong>Commitment Devices:</strong> Visibly locking or throwing
+away the steering wheel. If the opponent sees you cannot swerve, they
+must swerve to avoid death.</li>
+<li><strong>Reputation:</strong> Establishing a reputation for being
+irrational, reckless, or stubborn, making the opponent believe you would
+prefer a crash over yielding.</li>
+</ul>
+<h2 id="real-world-applications">Real-World Applications</h2>
+<p>The Game of Chicken is a vital tool for understanding high-stakes
+conflicts:</p>
+<ul>
+<li><strong>International Relations:</strong> During the 1962 Cuban
+Missile Crisis, the United States and the Soviet Union engaged in a
+geopolitical Game of Chicken. Both nations held their ground until the
+Soviet Union ultimately "swerved" by removing their missiles from Cuba
+in exchange for the U.S. removing missiles from Turkey.</li>
+<li><strong>Business Negotiations:</strong> Two companies engaging in a
+price war or fighting over a patent pool may refuse to back down. If
+neither yields, both face bankruptcy (collision); if one yields, the
+other dominates the market.</li>
+</ul></article>
+        <div id="comments-container"></div>
+        <script>
+            const utterancesScript = document.createElement('script');
+            utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
+            utterancesScript.setAttribute('repo', 'salivity/game-theory'); 
+            utterancesScript.setAttribute('issue-term', 'pathname'); 
+            utterancesScript.setAttribute('theme', localStorage.getItem('theme') === 'dark' ? 'github-dark' : 'github-light'); 
+            utterancesScript.setAttribute('crossorigin', 'anonymous');
+            utterancesScript.async = true;
+            document.getElementById('comments-container').appendChild(utterancesScript);
+        </script>
+    
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/game-theory/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/game-theory/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            Copyright &copy; <span id="current-year"></span>
+        </div>
+    </footer>
+</body>
+</html>

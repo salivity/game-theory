@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is an Evolutionarily Stable Strategy? - game-theory</title>
+    <meta name="description" content="An Evolutionarily Stable Strategy (ESS) is a fundamental concept in biological game theory that explains how specific behaviors and traits persist in a population over time. This article provides a clear, direct overview of what an ESS is, how it differs">
+    <link rel="canonical" href="https://salivity.github.io/game-theory/article/what-is-an-evolutionarily-stable-strategy">
+    <link rel="search" type="application/opensearchdescription+xml" title="game-theory" href="/game-theory/opensearch.xml">
+    <link rel="icon" href="/game-theory/favicon.ico">
+    <link rel="stylesheet" href="/game-theory/css/style.css">
+    <link media="print" rel="stylesheet" href="/game-theory/css/print.css">
+    <script src="/game-theory/js/fuse.min.js"></script>
+    <script src="/game-theory/js/script.js"></script>
+    <script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.1.3/tex-chtml.min.js" defer></script>
+    <script src="/monetize/monetize.js"></script>
+    <script src="/social/social.js"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="What is an Evolutionarily Stable Strategy? - game-theory" />
+    <meta property="og:url" content="https://salivity.github.io/game-theory/article/what-is-an-evolutionarily-stable-strategy" />
+    <meta property="og:image" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:secure_url" content="https://salivity.github.io/game-theory/images/open-graph/default.webp" />
+    <meta property="og:image:width" content="1120" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="An Evolutionarily Stable Strategy (ESS) is a fundamental concept in biological game theory that explains how specific behaviors and traits persist in a population over time. This article provides a clear, direct overview of what an ESS is, how it differs" />
+    <link rel="manifest" href="/game-theory/pwa/manifest.json" />
+</head>
+<body>
+    <header>
+        <a href="/game-theory/" aria-label="Go To Home Page" title="Go To Home Page" id="logo">
+            <span>salivity.github.io/</span><span>game-theory</span>
+        </a>
+        <nav>
+            <ul class="header-links">
+                <li><a href="/game-theory/search" title="Search" aria-label="Go To Search Page"><svg class="svg-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"></path></svg></a></li>
+                <li><a id="theme-toggle" title="Theme" href="javascript:void(0);" aria-label="Toggle Website Theme"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    <div class="article-layout">
+        <aside id="profile-sidebar" class="profile-column" aria-label="Author Profile"></aside>
+        <div class="article-main-column">
+            <article><h1 id="what-is-an-evolutionarily-stable-strategy">What is an
+Evolutionarily Stable Strategy?</h1>
+<p>An Evolutionarily Stable Strategy (ESS) is a fundamental concept in
+biological game theory that explains how specific behaviors and traits
+persist in a population over time. This article provides a clear, direct
+overview of what an ESS is, how it differs from classical game theory,
+the mathematical conditions required to achieve it, and real-world
+examples of how it functions in nature.</p>
+<h2 id="understanding-the-concept-of-ess">Understanding the Concept of
+ESS</h2>
+<p>Coined by biologist John Maynard Smith and scientist George R. Price
+in 1973, an Evolutionarily Stable Strategy is defined as a strategy
+which, if adopted by most members of a population, cannot be invaded by
+any alternative "mutant" strategy.</p>
+<p>In traditional game theory, players make conscious, rational choices
+to maximize their payoffs. In biological game theory, however, the
+"players" are organisms, the "strategies" are genetically inherited
+traits or behaviors, and the "payoff" is evolutionary fitness (survival
+and reproductive success). Over generations, natural selection filters
+out strategies with lower payoffs, leaving the most successful behaviors
+dominant.</p>
+<h2 id="the-mathematical-conditions-of-stability">The Mathematical
+Conditions of Stability</h2>
+<p>For a strategy (<span class="math inline">\(I\)</span>) to be
+evolutionarily stable against a rare mutant strategy (<span
+class="math inline">\(J\)</span>), it must satisfy specific conditions
+regarding its expected payoff (represented as <span
+class="math inline">\(E\)</span>). There are two pathways to
+stability:</p>
+<ol type="1">
+<li><p><strong>Strict Superiority:</strong> The dominant strategy must
+perform better against itself than the mutant strategy does against the
+dominant strategy. <span class="math display">\[E(I, I) &gt; E(J,
+I)\]</span></p></li>
+<li><p><strong>Alternative Superiority:</strong> If the mutant strategy
+performs equally well against the dominant strategy, the dominant
+strategy must perform better against the mutant than the mutant does
+against itself. <span class="math display">\[\text{If } E(I, I) = E(J,
+I), \text{ then } E(I, J) &gt; E(J, J)\]</span></p></li>
+</ol>
+<p>If either of these conditions is met, natural selection will prevent
+the mutant strategy from spreading through the population, keeping the
+dominant strategy stable.</p>
+<h2 id="a-classic-example-the-hawk-dove-game">A Classic Example: The
+Hawk-Dove Game</h2>
+<p>The dynamics of an ESS are best illustrated by the classic
+"Hawk-Dove" game, which models animal conflict over a shared
+resource:</p>
+<ul>
+<li><strong>Hawks (Aggressive):</strong> Always fight for the resource,
+risking injury.</li>
+<li><strong>Doves (Peaceful):</strong> Display and share the resource,
+retreating if a fight starts.</li>
+</ul>
+<p>If a population consists entirely of Doves, a mutant Hawk will easily
+invade because it wins every conflict without resistance. Conversely, if
+a population consists entirely of Hawks, the cost of constant injury
+becomes so high that a mutant Dove (which avoids injury) can
+successfully invade.</p>
+<p>Consequently, neither pure Hawk nor pure Dove is an ESS. Instead, the
+Evolutionarily Stable Strategy is a mixture of both behaviors. This can
+manifest as a "mixed ESS," where individuals randomize their behavior,
+or a stable polymorphism, where a fixed percentage of the population
+acts as Hawks and the remaining percentage acts as Doves.</p>
+<h2 id="why-ess-matters-in-biology">Why ESS Matters in Biology</h2>
+<p>The concept of an ESS explains many natural phenomena that seem
+counterintuitive at first glance. It helps biologists understand why
+animals do not always fight to the death over mates or territory, why
+altruistic behaviors exist, and why diverse mating strategies can
+coexist within a single species. By analyzing these behaviors through
+the lens of evolutionary stability, scientists can predict how
+populations will adapt to changing environments and human
+interventions.</p></article>
+        <div id="comments-container"></div>
+        <script>
+            const utterancesScript = document.createElement('script');
+            utterancesScript.setAttribute('src', 'https://utteranc.es/client.js');
+            utterancesScript.setAttribute('repo', 'salivity/game-theory'); 
+            utterancesScript.setAttribute('issue-term', 'pathname'); 
+            utterancesScript.setAttribute('theme', localStorage.getItem('theme') === 'dark' ? 'github-dark' : 'github-light'); 
+            utterancesScript.setAttribute('crossorigin', 'anonymous');
+            utterancesScript.async = true;
+            document.getElementById('comments-container').appendChild(utterancesScript);
+        </script>
+    
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+            </ul>
+        </nav>
+        <nav>
+            <ul class="footer-links">
+                <li><a href="/game-theory/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/game-theory/terms-and-conditions">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            Copyright &copy; <span id="current-year"></span>
+        </div>
+    </footer>
+</body>
+</html>
